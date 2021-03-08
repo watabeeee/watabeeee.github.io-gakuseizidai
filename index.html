@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>学生時代</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="responsive.css">
+  <script src="https://kit.fontawesome.com/ae2b26c97f.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="header-wrapper">
+      <a href="#"><img class="header-logo" src="https://github.com/watabeeee/.github.io/blob/main/131148.jpg?raw=true"></a>
+      <ul>
+        <ol><a class="signup-show" href="#">新規登録</a></ol>
+        <ol><a id="login-show" href="#">ログイン</a></ol>
+      </ul>
+    </div>
+  </header>
+
+  <div class="signup-modal-wrapper" id="signup-modal">
+    <div class="modal">
+      <div class="close-modal">
+        <i class="far fa-window-close"></i>
+      </div>
+      
+      <div id="signup-form">
+        <h2>新規登録</h2>
+        <form action="#">
+          <input class="form-control" type="name" placeholder="名前">
+          <input class="form-control" type="text" placeholder="メールアドレス">
+          <input class="form-control" type="password" placeholder="パスワード">
+          <input class="form-control" type="password" placeholder="パスワードの確認">
+          <div id="submit-btn">新規登録</div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="login-modal-wrapper" id="login-modal">
+    <div class="modal login-modal">
+      <div class="close-modal">
+        <i class="far fa-window-close"></i>
+      </div>
+      
+      <div id="login-form">
+        <h2>ログイン</h2>
+        <form action="#">
+          <input class="form-control" type="text" placeholder="メールアドレス">
+          <input class="form-control" type="password" placeholder="パスワード">
+          <div id="submit-btn">ログイン</div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="top-wrapper">
+    <div class="top-img">
+      <h2 class="top-title">あなたの学生時代、</h2>
+      <h2 class="top-title">未来の学生のために</h2>
+      <h2 class="top-title">残してみませんか？</h2>
+    </div>
+  </div>
+
+  <div class="main">
+    <h2 class="main-contents ef">―学生時代とは―</h2>
+    <p class="main-contents ef">学生時代とは、社会に飛び出す一歩手前の「大学生」という時期を</p>
+    <p class="main-contents ef">最大限有効に活用するための掲示板サービスです。</p>
+  </div>
+
+  <div class="service-wrapper">
+    <h2 class="service-title ef">サービス</h2>
+    <div class="service ef">
+      <div class="text-content">
+        <h3>記録する</h3>
+        <p>未来の学生たちの道標として、<br>自身の学生生活の設計図として、<br>様々な活動や学習を<br>記録することが出来ます。</p>
+      </div>
+      <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NTJ8fGJvb2t8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60">
+    </div>
+    <div class="service ef">
+      <img src="https://images.unsplash.com/photo-1529672425113-d3035c7f4837?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8c2VlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60">
+      <div class="text-content right-content">
+        <h3>発見する</h3>
+        <p>自身の将来を考え<br>行動するための指標として、<br>先輩たちの学生時代の過ごし方を<br>見ることが出来ます。</p>
+      </div>
+    </div>
+    <div class="service ef">
+      <div class="text-content bottom-text">
+        <h3>仲間を作る</h3>
+        <p>同じ志を持つ者を見つけ、<br>共に切磋琢磨して<br>明るい未来を切り拓きます。</p>
+      </div>
+      <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTh8fHRlYW13b3JrfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60">
+    </div>
+  </div>
+
+  <div class="invite">
+    <div class="invite-text">
+      <p class="ef">一度きりの学生時代、</p>
+      <p class="ef">無駄にするのはもったいない。</p>
+    </div>
+    <a class="signup-show" href="#">今すぐ登録する</a>
+  </div>
+
+  <footer>
+    <p>Copyright © 2021 GakuseiZidai All Rights Reserved.</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
