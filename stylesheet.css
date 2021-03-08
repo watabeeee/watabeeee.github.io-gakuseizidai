@@ -1,0 +1,243 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+/*ヘッダー*/
+.header-wrapper{
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  background-color: white;
+  width: 100%;
+  opacity: 0.9;
+  height: 70px;
+}
+.header-logo{
+  width: 210px;
+  position: absolute;
+  top: 8px;
+  left: 8px;
+}
+.header-wrapper ol{
+  margin-right: 55px;
+  display: inline;
+}
+.header-wrapper ul{
+  float: right;
+}
+.header-wrapper ul a{
+  text-decoration: none;
+  color: rgb(2, 19, 54);
+  font-size: 20px;
+  font-family: 'MS UI Gothic';
+  opacity: 0.9;
+  display: inline-block;
+  height: 43px;
+  padding: 26px 10px 0 10px;
+  transition: all 0.8s;
+}
+.header-wrapper ul a:hover{
+  background-color: rgba(228, 228, 228, 0.74);
+  color: rgb(8, 125, 235);
+}
+
+/*モーダル*/
+.login-modal-wrapper, .signup-modal-wrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.288);
+  z-index: 100;
+  display: none;
+}
+
+.modal {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  background-color: #ffffffe7;
+  padding: 20px 0 20px;
+  border-radius: 3px;
+  width: 600px;
+  height: 370px;
+  text-align: center;
+}
+
+.login-modal{
+  height: 250px;
+}
+.fa-window-close {
+  position: absolute;
+  top: 12px;
+  right: 20px;
+  font-size: 25px;
+  color: rgba(24, 23, 23, 0.808);
+  cursor: pointer;
+}
+
+#signup-form, #login-form {
+  width: 100%;
+}
+
+#signup-form h2, #login-form h2 {
+  color: #000000;
+  letter-spacing: 10px;
+  margin-bottom: 20px;
+  font-family: 'Yu Gothic';
+  font-weight: normal;
+  font-size: 30px;
+}
+
+#signup-form input, #login-form input {
+  width: 400px;
+  margin-bottom: 18px;
+  font-size: 12px;
+  padding: 12px 12px;
+  border: 1px solid #727374;
+  border-radius: 3px;
+}
+
+#submit-btn {
+  background-color: rgb(44, 100, 253);
+  display: inline-block;
+  padding: 12px 160px;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  margin: 10px auto;
+  cursor: pointer;
+  transition: 1s;
+}
+
+#submit-btn:hover{
+  background-color: rgb(44, 194, 253);
+}
+/*トップ*/
+.top-wrapper{
+  width: 100%;
+  margin-top: 70px;
+}
+.top-img{
+  background-image: url(https://github.com/watabeeee/.github.io/blob/main/inaki-del-olmo-NIJuEQw0RKg-unsplash.jpg?raw=true);
+  background-size: cover;
+  height: 520px;
+  padding-top: 130px;
+}
+.top-wrapper h2{
+  color: rgb(255, 255, 255);
+  font-weight: normal;
+  font-size: 70px;
+  letter-spacing: 9px;
+  text-align: right;
+  margin-right: 45px;
+  margin-top: 20px;
+  font-family: 'Yu Gothic';
+  animation-name: fadein;
+  animation-duration: 2.4s;
+}
+@keyframes fadein {
+  from {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+  }
+
+/*学生時代とは*/
+.main{
+  text-align: center;
+  font-family: 'Yu Gothic';
+  margin-top: 60px;
+}
+.main h2{
+  font-size: 50px;
+  letter-spacing: 14px;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+.main p{
+  font-size: 32px;
+  margin-top: 20px;
+}
+
+/*サービス*/
+.service-title{
+  text-align: center;
+  font-family: 'Yu Gothic';
+  font-size: 55px;
+  letter-spacing: 14px;
+  font-weight: normal;
+  margin-top: 80px;
+  padding-bottom: 20px;
+}
+.service{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(206, 177, 170, 0.664);
+}
+.service img{
+  width: 50%;
+  height: 456px;
+}
+
+.text-content{
+  font-family: 'Yu Gothic';
+  text-align: center;
+  letter-spacing: 3px;
+  display: block;
+  margin: auto;
+}
+.service p{
+  font-size: 30px;
+}
+.service h3{
+  font-weight: normal;
+  font-size: 80px;
+  padding-bottom: 10px;
+}
+
+/*招待*/
+.invite{
+  text-align: center;
+  font-family: 'Yu Gothic';
+  letter-spacing: 3px;
+  margin-top: 80px;
+  height: 350px;
+}
+.invite-text{
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+.invite a{
+  text-decoration: none;
+  border: 1px solid rgb(34, 158, 180);
+  background-color: rgb(44, 100, 253);
+  color: white;
+  display: inline-block;
+  width: 350px;
+  height: 40px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  padding-top: 11px;
+  transition: 1s;
+}
+.invite a:hover{
+  background-color: rgba(44, 100, 253, 0.459);
+}
+
+/*フッター*/
+footer p{
+  text-align: center;
+  margin-bottom: 10px;
+}
