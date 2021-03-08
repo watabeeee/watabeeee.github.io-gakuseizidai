@@ -1,0 +1,262 @@
+/*レスポンシブデザイン*/
+@media (max-width: 1000px){
+  .top-wrapper h2{
+    font-size: 50px;
+  }
+  .main p{
+    font-size: 20px;
+  }
+  .invite-text{
+    font-size: 40px;
+  }
+  .service h3{
+    font-size: 50px;
+  }
+  .service p{
+    font-size: 19px;
+    padding-top: 20px;
+  }
+  .service img{
+    height: 350px;
+  }
+  .modal{
+    width: 400px;
+    height: 345px;
+  }
+  .login-modal{
+    height: 230px;
+  }
+  #signup-form input, #login-form input {
+    width: 300px;
+  }
+  #submit-btn{
+    padding: 8px 80px;
+  }
+}
+@media (max-width: 670px){
+  .header-wrapper{
+    height: 40px;
+  }
+  .header-logo{
+    width: 120px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+  }
+  .top-wrapper{
+    margin-top: 40px;
+  }
+  .header-wrapper ol{
+    margin-right: 4px;
+  }
+  .header-wrapper ul a{
+    font-size: 14px;
+    height: 24px;
+    padding: 16px 10px 0 10px;
+    font-weight: bold;
+  }
+  .top-wrapper h2{
+    font-size: 21px;
+    padding-left: 30px;
+  }
+  .top-img{
+    height: 200px;
+    padding-top: 20px;
+  }
+  .main p{
+    font-size: 18px;
+  }
+  .main h2,.service-title{
+    font-size: 40px;
+  }
+  .service h3{
+    font-size: 50px;
+  }
+  .service p{
+    font-size: 15px;
+    padding-top: 8px;
+  }
+  .service img{
+    height: 280px;
+  }
+  .invite-text{
+    font-size: 30px;
+  }
+  .invite{
+    margin-top: 50px;
+    height: 270px;
+  }
+  .modal{
+    width: 360px;
+    height: 320px;
+  }
+  .login-modal{
+    height: 200px;
+  }
+  #signup-form input, #login-form input {
+    width: 270px;
+  }
+  #submit-btn{
+    padding: 8px 80px;
+  }
+  #signup-form h2, #login-form h2{
+    font-size: 19px;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 550px){
+  .main h2,.service-title{
+    font-size: 27px;
+  }
+  .main p{
+    font-size: 14px;
+  }
+  .main{
+    margin-top: 30px;
+  }
+  .service-title{
+    margin-top: 45px;
+    padding-bottom: 10px;
+  }
+  .service h3{
+    font-size: 40px;
+  }
+  .service p{
+    font-size: 12px;
+    padding-top: 6px;
+  }
+  .service img{
+    height: 210px;
+  }
+  .invite-text{
+    font-size: 25px;
+  }
+  .invite{
+    height: 240px;
+  }
+  footer p{
+    font-size: 7px;
+  }
+  .invite a{
+    width: 280px;
+  }
+  .modal{
+    width: 320px;
+    height: 283px;
+  }
+  .login-modal{
+    height: 183px;
+  }
+  #signup-form input, #login-form input {
+    width: 250px;
+    margin-bottom: 10px;
+  }
+  .fa-window-close{
+    font-size: 19px;
+  }
+  #submit-btn{
+    padding: 5px 75px;
+  }
+  #signup-form h2, #login-form h2{
+    margin-bottom: 8px;
+  }
+}
+@media (max-width: 450px){
+  .main h2,.service-title{
+    font-size: 24px;
+  }
+  .main p{
+    font-size: 11px;
+  }
+  .service h3{
+    font-size: 32px;
+  }
+  .service p{
+    font-size: 9px;
+    padding-top: 2px;
+  }
+  .service img{
+    height: 180px;
+  }
+  .invite{
+    height: 180px;
+    margin-top: 30px;
+  }
+  .invite-text{
+    margin-bottom: 25px;
+  }
+  .invite a{
+    width: 200px;
+    height: 28px;
+    font-size: 16px;
+    padding-top: 2px;
+  }
+  .modal{
+    width: 280px;
+    height: 220px;
+  }
+  .login-modal{
+    height: 145px;
+  }
+  #signup-form input, #login-form input {
+    width: 200px;
+    margin-bottom: 10px;
+    padding: 7px;
+    font-size: 8px;
+  }
+  .fa-window-close{
+    font-size: 18px;
+  }
+  #submit-btn{
+    padding: 2px 55px;
+  }
+}
+@media (max-width: 400px){
+  .top-wrapper h2{
+    font-size: 16px;
+    padding-left: 50px;
+  }
+  .main h2,.service-title{
+    font-size: 19px;
+  }
+  .main p{
+    font-size: 10px;
+  }
+  .service h3{
+    font-size: 27px;
+  }
+  .service p{
+    font-size: 9px;
+    letter-spacing: 0px;
+    padding-top: 1px;
+  }
+  .service img{
+    height: 150px;
+  }
+  .invite-text{
+    font-size: 18px;
+  }
+  .invite{
+    height: 150px;
+  }
+  .modal{
+    width: 200px;
+    height: 185px;
+  }
+  .login-modal{
+    height: 120px;
+  }
+  #signup-form input, #login-form input {
+    width: 155px;
+    margin-bottom: 8px;
+    padding: 4px;
+    font-size: 4px;
+  }
+  .fa-window-close{
+    font-size: 14px;
+  }
+  #submit-btn{
+    padding: 2px 45px;
+    font-size: 10px;
+  }
+}
